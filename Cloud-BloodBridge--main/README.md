@@ -1,60 +1,69 @@
-# BloodBridge - Lifesaving Resources
+# 🩸 BloodBridge - Optimizing Lifesaving Resources
 
-BloodBridge is a web-based platform designed to streamline emergency blood requests, donor management, and blood bank inventory tracking. The project aims to connect hospitals, donors, and blood banks for efficient and timely blood resource management.
+**BloodBridge** is a cloud-powered, full-stack web application that modernizes blood donation, emergency requests, and inventory management. It bridges the gap between **donors**, **hospitals**, and **blood banks**, ensuring quick access to lifesaving resources using scalable AWS infrastructure.
 
-## Features
+---
 
-- **Emergency Blood Request:**  
-  Submit urgent blood requests specifying blood type, quantity, and location.
+## 🚀 Overview
 
-- **Donor Management:**  
-  View upcoming blood drives and schedule donations.
+BloodBridge aims to solve critical healthcare delays by digitizing the blood request and supply lifecycle. With real-time dashboards, secure logins, and intelligent request fulfillment, the platform empowers faster decision-making during emergencies and improves operational efficiency.
 
-- **Blood Bank Inventory:**  
-  Update and track blood stock levels for different blood types.
+---
 
-## Project Structure
+## ⚙️ Tech Stack
 
-```
-Frontend for Blood Request Form.txt   # HTML/CSS/JS for the main frontend (duplicate of Main.html)
-Main.html                            # Main frontend HTML file
-Documentation and Demo/
-    Project Video Demo Link.pdf
-Project Planning/
-    Project Planning.pdf
-Project Problem Statement/
-    Project Problem Statement.pdf
-Proposed Solution/
-    Project Proposed Solution.pdf
-System Architecture/
-    System Architecture Document.pdf
-Technology and Services/
-    Technology Stack and Services Used.pdf
-```
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** Flask (Planned Integration)
+- **Cloud Services:**
+  - **Amazon EC2** – Hosts backend services
+  - **Amazon RDS** – Stores structured data (users, requests)
+  - **Amazon DynamoDB** – Tracks live blood inventory
+  - **Amazon S3** – Stores documents and reports
+  - **Amazon Cognito** – Manages user authentication
+  - **Amazon CloudWatch** – Enables monitoring and auditing
 
-- All documentation and planning files are organized in their respective folders.
+---
 
-## Getting Started
+## ✨ Key Features
 
-1. **Open `Main.html`** in your web browser to use the BloodBridge frontend.
-2. The interface allows you to:
-   - Submit emergency blood requests.
-   - View and schedule blood donations.
-   - Update blood bank inventory.
+- 🛑 **Emergency Blood Requests**  
+  Hospitals can raise urgent requests specifying blood group, quantity, and urgency.
 
-> **Note:**  
-> The current frontend is static and uses alert dialogs for feedback. API integration points are marked in the JavaScript for future backend connectivity.
+- 👤 **Donor Management System**  
+  Donors can view upcoming drives, schedule donations, and track history.
 
-## Customization
+- 📦 **Blood Bank Inventory Dashboard**  
+  Real-time visibility of blood types in stock, with expiry and availability updates.
 
-- To update upcoming blood drives, edit the `<ul>` in the Donor Management section of `Main.html`.
-- To change form validation or add new fields, modify the relevant `<form>` elements and JavaScript functions.
+- 🔐 **Secure Role-Based Access**  
+  Separate dashboards for **Donor**, **Hospital**, and **Admin** users.
 
-## Documentation
+- 🔔 **Notifications & Alerts**  
+  Donors are notified when their blood type is needed in nearby locations.
 
-- **Project Planning:** See [Project Planning/Project Planning.pdf](Project%20Planning/Project%20Planning.pdf)
-- **Problem Statement:** See [Project Problem Statement/Project Problem Statement.pdf](Project%20Problem%20Statement/Project%20Problem%20Statement.pdf)
-- **Proposed Solution:** See [Proposed Solution/Project Proposed Solution.pdf](Proposed%20Solution/Project%20Proposed%20Solution.pdf)
-- **System Architecture:** See [System Architecture/System Architecture Document.pdf](System%20Architecture/System%20Architecture%20Document.pdf)
-- **Technology Stack:** See [Technology and Services/Technology Stack and Services Used.pdf](Technology%20and%20Services/Technology%20Stack%20and%20Services%20Used.pdf)
-- **Demo Video:** See [Documentation and Demo/Project Video Demo Link.pdf](Documentation%20and%20Demo/Project%20Video%20Demo%20Link.pdf)
+---
+
+## ⚙️ Tech Stack
+
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** Flask (Planned Integration)
+- **Cloud Services:**
+  - **Amazon EC2** – Hosts backend services
+  - **Amazon RDS** – Stores structured data (users, requests)
+  - **Amazon DynamoDB** – Tracks live blood inventory
+  - **Amazon S3** – Stores documents and reports
+  - **Amazon Cognito** – Manages user authentication
+  - **Amazon CloudWatch** – Enables monitoring and auditing
+
+---
+
+
+> 🧪 The current frontend is **static**. Backend APIs and database integration will be added during the next phase.
+
+---
+
+## 📌 Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Simrannayak647/BloodBridge-Optimizing-Lifesaving-Resources-using-RDS-EC2.git
