@@ -1,60 +1,69 @@
-BloodBridge — Optimizing Lifesaving Resources
-BloodBridge is a cloud-integrated web application developed to simplify and streamline blood donation management, emergency requests, and real-time inventory tracking. It acts as a digital bridge connecting donors, hospitals, and blood banks to improve access to blood resources when it matters most.
+# 🩸 BloodBridge - Optimizing Lifesaving Resources
 
-🌟 Key Features
-🔴 Emergency Blood Requests
-Hospitals can submit urgent blood requests specifying blood type, quantity, and location.
+**BloodBridge** is a cloud-powered, full-stack web application that modernizes blood donation, emergency requests, and inventory management. It bridges the gap between **donors**, **hospitals**, and **blood banks**, ensuring quick access to lifesaving resources using scalable AWS infrastructure.
 
-🩸 Donor Management
-Donors can view upcoming donation drives and schedule their contributions.
+---
 
-📊 Blood Bank Inventory
-Staff can update and monitor real-time blood stock availability and expiry.
+## 🚀 Overview
 
-🔐 Role-Based Access
-Secure login for Donors, Admins, and Hospitals using AWS Cognito.
+BloodBridge aims to solve critical healthcare delays by digitizing the blood request and supply lifecycle. With real-time dashboards, secure logins, and intelligent request fulfillment, the platform empowers faster decision-making during emergencies and improves operational efficiency.
 
-📢 Notifications
-Donors get alerts when their blood type is in demand.
+---
 
-🚀 Technologies Used
-Frontend: HTML, CSS, JavaScript
+## ⚙️ Tech Stack
 
-Backend: Flask / Node.js (future integration)
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** Flask (Planned Integration)
+- **Cloud Services:**
+  - **Amazon EC2** – Hosts backend services
+  - **Amazon RDS** – Stores structured data (users, requests)
+  - **Amazon DynamoDB** – Tracks live blood inventory
+  - **Amazon S3** – Stores documents and reports
+  - **Amazon Cognito** – Manages user authentication
+  - **Amazon CloudWatch** – Enables monitoring and auditing
 
-Cloud Services:
+---
 
-AWS EC2 (Server Hosting)
+## ✨ Key Features
 
-AWS RDS & DynamoDB (Database Storage)
+- 🛑 **Emergency Blood Requests**  
+  Hospitals can raise urgent requests specifying blood group, quantity, and urgency.
 
-AWS S3 (File Storage)
+- 👤 **Donor Management System**  
+  Donors can view upcoming drives, schedule donations, and track history.
 
-AWS Cognito (Authentication)
+- 📦 **Blood Bank Inventory Dashboard**  
+  Real-time visibility of blood types in stock, with expiry and availability updates.
 
-AWS CloudWatch (Monitoring)
+- 🔐 **Secure Role-Based Access**  
+  Separate dashboards for **Donor**, **Hospital**, and **Admin** users.
 
-🛠️ How to Use
-Open Main.html in any modern browser.
+- 🔔 **Notifications & Alerts**  
+  Donors are notified when their blood type is needed in nearby locations.
 
-Try the following actions:
+---
 
-Submit a blood request form.
+## ⚙️ Tech Stack
 
-View and manage donor activity.
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** Flask (Planned Integration)
+- **Cloud Services:**
+  - **Amazon EC2** – Hosts backend services
+  - **Amazon RDS** – Stores structured data (users, requests)
+  - **Amazon DynamoDB** – Tracks live blood inventory
+  - **Amazon S3** – Stores documents and reports
+  - **Amazon Cognito** – Manages user authentication
+  - **Amazon CloudWatch** – Enables monitoring and auditing
 
-Update blood stock as an admin or staff member.
+---
 
-Note: Currently, the frontend is static. Backend APIs and database connectivity will be integrated in the next development phase.
 
-🧩 Future Scope
-AI-powered demand forecasting
+> 🧪 The current frontend is **static**. Backend APIs and database integration will be added during the next phase.
 
-Android/iOS mobile app
+---
 
-Integration with hospital systems
+## 📌 Getting Started
 
-Real-time logistics and delivery tracking
-
-Multilingual support for better reach
-
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Simrannayak647/BloodBridge-Optimizing-Lifesaving-Resources-using-RDS-EC2.git
